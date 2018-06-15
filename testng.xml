@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+   
+   <listeners>
+	
+		<!-- ScreenShort take when test case pass/fail/skip -->
+		<listener class-name="GenericLab.ListenerHelper"/>
+		
+		<!-- Fail Test Case Run using TestNG -->
+		<listener class-name="GenericLab.AnnotationTransformer"/>
+
+  </listeners>
+
+
+
+
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="TracksPageScripts.Linkedin_SignUp_PageScripts"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

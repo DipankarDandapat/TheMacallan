@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="6" failed="2" ignored="0" total="11" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="67443" started-at="2018-06-15T21:30:11Z" finished-at="2018-06-15T21:31:19Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="67443" started-at="2018-06-15T21:30:11Z" finished-at="2018-06-15T21:31:19Z">
+      <class name="TracksPageScripts.Linkedin_SignUp_PageScripts">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TracksPageScripts.Linkedin_SignUp_PageScripts@5ae63ade]" name="setUp" is-config="true" duration-ms="165" started-at="2018-06-15T21:30:11Z" finished-at="2018-06-15T21:30:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Setup()[pri:0, instance:TracksPageScripts.Linkedin_SignUp_PageScripts@5ae63ade]" name="Setup" is-config="true" duration-ms="5154" started-at="2018-06-15T21:30:11Z" finished-at="2018-06-15T21:30:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="firstTestCase()[pri:1, instance:TracksPageScripts.Linkedin_SignUp_PageScripts@5ae63ade]" name="firstTestCase" duration-ms="6400" started-at="2018-06-15T21:30:17Z" finished-at="2018-06-15T21:30:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTestCase -->
+        <test-method status="PASS" signature="takeScreenshort(org.testng.ITestResult)[pri:0, instance:TracksPageScripts.Linkedin_SignUp_PageScripts@5ae63ade]" name="takeScreenshort" is-config="true" duration-ms="911" started-at="2018-06-15T21:30:24Z" finished-at="2018-06-15T21:30:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=firstTestCase status=SUCCESS method=Linkedin_SignUp_PageScripts.firstTestCase()[pri:1, instance:TracksPageScripts.Linkedin_SignUp_PageScripts@5ae63ade] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshort -->
+        <test-method status="PASS" signature="secondTestCase()[pri:2, instance:TracksPageScripts.Linkedin_SignUp_PageScripts@5ae63ade]" name="secondTestCase" duration-ms="3466" started-at="2018-06-15T21:30:25Z" finished-at="2018-06-15T21:30:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondTestCase -->
+        <test-method status="PASS" signature="takeScreenshort(org.testng.ITestResult)[pri:0, instance:TracksPageScripts.Linkedin_SignUp_PageScripts@5ae63ade]" name="takeScreenshort" is-config="true" duration-ms="938" started-at="2018-06-15T21:30:29Z" finished-at="2018-06-15T21:30:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=secondTestCase status=SUCCESS method=Linkedin_SignUp_PageScripts.secondTestCase()[pri:2, instance:TracksPageScripts.Linkedin_SignUp_PageScripts@5ae63ade] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshort -->
+        <test-method status="SKIP" signature="thirdTestCase()[pri:3, instance:TracksPageScripts.Linkedin_SignUp_PageScripts@5ae63ade]" name="thirdTestCase" duration-ms="3246" started-at="2018-06-15T21:30:30Z" finished-at="2018-06-15T21:30:34Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [Please enter your email address] but found [Please enter your email address or mobile number]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [Please enter your email address] but found [Please enter your email address or mobile number]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+at TracksPageScripts.Linkedin_SignUp_PageScripts.thirdTestCase(Linkedin_SignUp_PageScripts.java:119)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thirdTestCase -->
+        <test-method status="PASS" signature="takeScreenshort(org.testng.ITestResult)[pri:0, instance:TracksPageScripts.Linkedin_SignUp_PageScripts@5ae63ade]" name="takeScreenshort" is-config="true" duration-ms="890" started-at="2018-06-15T21:30:34Z" finished-at="2018-06-15T21:30:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=thirdTestCase status=SKIP method=Linkedin_SignUp_PageScripts.thirdTestCase()[pri:3, instance:TracksPageScripts.Linkedin_SignUp_PageScripts@5ae63ade] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshort -->
+        <test-method status="SKIP" signature="thirdTestCase()[pri:3, instance:TracksPageScripts.Linkedin_SignUp_PageScripts@5ae63ade]" name="thirdTestCase" duration-ms="3310" started-at="2018-06-15T21:30:35Z" finished-at="2018-06-15T21:30:39Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [Please enter your email address] but found [Please enter your email address or mobile number]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [Please enter your email address] but found [Please enter your email address or mobile number]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+at TracksPageScripts.Linkedin_SignUp_PageScripts.thirdTestCase(Linkedin_SignUp_PageScripts.java:119)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thirdTestCase -->
+        <test-method status="PASS" signature="takeScreenshort(org.testng.ITestResult)[pri:0, instance:TracksPageScripts.Linkedin_SignUp_PageScripts@5ae63ade]" name="takeScreenshort" is-config="true" duration-ms="897" started-at="2018-06-15T21:30:40Z" finished-at="2018-06-15T21:30:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=thirdTestCase status=SKIP method=Linkedin_SignUp_PageScripts.thirdTestCase()[pri:3, instance:TracksPageScripts.Linkedin_SignUp_PageScripts@5ae63ade] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshort -->
+        <test-method status="SKIP" signature="thirdTestCase()[pri:3, instance:TracksPageScripts.Linkedin_SignUp_PageScripts@5ae63ade]" name="thirdTestCase" duration-ms="3269" started-at="2018-06-15T21:30:40Z" finished-at="2018-06-15T21:30:44Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [Please enter your email address] but found [Please enter your email address or mobile number]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [Please enter your email address] but found [Please enter your email address or mobile number]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+at TracksPageScripts.Linkedin_SignUp_PageScripts.thirdTestCase(Linkedin_SignUp_PageScripts.java:119)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thirdTestCase -->
+        <test-method status="PASS" signature="takeScreenshort(org.testng.ITestResult)[pri:0, instance:TracksPageScripts.Linkedin_SignUp_PageScripts@5ae63ade]" name="takeScreenshort" is-config="true" duration-ms="967" started-at="2018-06-15T21:30:45Z" finished-at="2018-06-15T21:30:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=thirdTestCase status=SKIP method=Linkedin_SignUp_PageScripts.thirdTestCase()[pri:3, instance:TracksPageScripts.Linkedin_SignUp_PageScripts@5ae63ade] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshort -->
+        <test-method status="FAIL" signature="thirdTestCase()[pri:3, instance:TracksPageScripts.Linkedin_SignUp_PageScripts@5ae63ade]" name="thirdTestCase" duration-ms="3332" started-at="2018-06-15T21:30:46Z" finished-at="2018-06-15T21:30:49Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [Please enter your email address] but found [Please enter your email address or mobile number]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [Please enter your email address] but found [Please enter your email address or mobile number]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+at TracksPageScripts.Linkedin_SignUp_PageScripts.thirdTestCase(Linkedin_SignUp_PageScripts.java:119)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thirdTestCase -->
+        <test-method status="PASS" signature="takeScreenshort(org.testng.ITestResult)[pri:0, instance:TracksPageScripts.Linkedin_SignUp_PageScripts@5ae63ade]" name="takeScreenshort" is-config="true" duration-ms="889" started-at="2018-06-15T21:30:50Z" finished-at="2018-06-15T21:30:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=thirdTestCase status=FAILURE method=Linkedin_SignUp_PageScripts.thirdTestCase()[pri:3, instance:TracksPageScripts.Linkedin_SignUp_PageScripts@5ae63ade] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshort -->
+        <test-method status="PASS" signature="fourthTestCase()[pri:4, instance:TracksPageScripts.Linkedin_SignUp_PageScripts@5ae63ade]" name="fourthTestCase" duration-ms="3218" started-at="2018-06-15T21:30:51Z" finished-at="2018-06-15T21:30:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fourthTestCase -->
+        <test-method status="PASS" signature="takeScreenshort(org.testng.ITestResult)[pri:0, instance:TracksPageScripts.Linkedin_SignUp_PageScripts@5ae63ade]" name="takeScreenshort" is-config="true" duration-ms="866" started-at="2018-06-15T21:30:55Z" finished-at="2018-06-15T21:30:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=fourthTestCase status=SUCCESS method=Linkedin_SignUp_PageScripts.fourthTestCase()[pri:4, instance:TracksPageScripts.Linkedin_SignUp_PageScripts@5ae63ade] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshort -->
+        <test-method status="SKIP" signature="fifthTestCase()[pri:5, instance:TracksPageScripts.Linkedin_SignUp_PageScripts@5ae63ade]" name="fifthTestCase" duration-ms="3345" started-at="2018-06-15T21:30:56Z" finished-at="2018-06-15T21:30:59Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [Please enter a valid email address] but found [Please enter a valid email address or mobile number]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [Please enter a valid email address] but found [Please enter a valid email address or mobile number]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+at TracksPageScripts.Linkedin_SignUp_PageScripts.fifthTestCase(Linkedin_SignUp_PageScripts.java:169)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fifthTestCase -->
+        <test-method status="PASS" signature="takeScreenshort(org.testng.ITestResult)[pri:0, instance:TracksPageScripts.Linkedin_SignUp_PageScripts@5ae63ade]" name="takeScreenshort" is-config="true" duration-ms="1018" started-at="2018-06-15T21:31:00Z" finished-at="2018-06-15T21:31:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=fifthTestCase status=SKIP method=Linkedin_SignUp_PageScripts.fifthTestCase()[pri:5, instance:TracksPageScripts.Linkedin_SignUp_PageScripts@5ae63ade] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshort -->
+        <test-method status="SKIP" signature="fifthTestCase()[pri:5, instance:TracksPageScripts.Linkedin_SignUp_PageScripts@5ae63ade]" name="fifthTestCase" duration-ms="3493" started-at="2018-06-15T21:31:01Z" finished-at="2018-06-15T21:31:04Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [Please enter a valid email address] but found [Please enter a valid email address or mobile number]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [Please enter a valid email address] but found [Please enter a valid email address or mobile number]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+at TracksPageScripts.Linkedin_SignUp_PageScripts.fifthTestCase(Linkedin_SignUp_PageScripts.java:169)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fifthTestCase -->
+        <test-method status="PASS" signature="takeScreenshort(org.testng.ITestResult)[pri:0, instance:TracksPageScripts.Linkedin_SignUp_PageScripts@5ae63ade]" name="takeScreenshort" is-config="true" duration-ms="887" started-at="2018-06-15T21:31:05Z" finished-at="2018-06-15T21:31:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=fifthTestCase status=SKIP method=Linkedin_SignUp_PageScripts.fifthTestCase()[pri:5, instance:TracksPageScripts.Linkedin_SignUp_PageScripts@5ae63ade] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshort -->
+        <test-method status="SKIP" signature="fifthTestCase()[pri:5, instance:TracksPageScripts.Linkedin_SignUp_PageScripts@5ae63ade]" name="fifthTestCase" duration-ms="3325" started-at="2018-06-15T21:31:06Z" finished-at="2018-06-15T21:31:10Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [Please enter a valid email address] but found [Please enter a valid email address or mobile number]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [Please enter a valid email address] but found [Please enter a valid email address or mobile number]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+at TracksPageScripts.Linkedin_SignUp_PageScripts.fifthTestCase(Linkedin_SignUp_PageScripts.java:169)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fifthTestCase -->
+        <test-method status="PASS" signature="takeScreenshort(org.testng.ITestResult)[pri:0, instance:TracksPageScripts.Linkedin_SignUp_PageScripts@5ae63ade]" name="takeScreenshort" is-config="true" duration-ms="892" started-at="2018-06-15T21:31:10Z" finished-at="2018-06-15T21:31:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=fifthTestCase status=SKIP method=Linkedin_SignUp_PageScripts.fifthTestCase()[pri:5, instance:TracksPageScripts.Linkedin_SignUp_PageScripts@5ae63ade] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshort -->
+        <test-method status="FAIL" signature="fifthTestCase()[pri:5, instance:TracksPageScripts.Linkedin_SignUp_PageScripts@5ae63ade]" name="fifthTestCase" duration-ms="3142" started-at="2018-06-15T21:31:11Z" finished-at="2018-06-15T21:31:14Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [Please enter a valid email address] but found [Please enter a valid email address or mobile number]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [Please enter a valid email address] but found [Please enter a valid email address or mobile number]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+at TracksPageScripts.Linkedin_SignUp_PageScripts.fifthTestCase(Linkedin_SignUp_PageScripts.java:169)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fifthTestCase -->
+        <test-method status="PASS" signature="takeScreenshort(org.testng.ITestResult)[pri:0, instance:TracksPageScripts.Linkedin_SignUp_PageScripts@5ae63ade]" name="takeScreenshort" is-config="true" duration-ms="893" started-at="2018-06-15T21:31:15Z" finished-at="2018-06-15T21:31:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=fifthTestCase status=FAILURE method=Linkedin_SignUp_PageScripts.fifthTestCase()[pri:5, instance:TracksPageScripts.Linkedin_SignUp_PageScripts@5ae63ade] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshort -->
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:TracksPageScripts.Linkedin_SignUp_PageScripts@5ae63ade]" name="Teardown" is-config="true" duration-ms="2284" started-at="2018-06-15T21:31:16Z" finished-at="2018-06-15T21:31:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TracksPageScripts.Linkedin_SignUp_PageScripts@5ae63ade]" name="tearDown" is-config="true" duration-ms="324" started-at="2018-06-15T21:31:19Z" finished-at="2018-06-15T21:31:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TracksPageScripts.Linkedin_SignUp_PageScripts -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
